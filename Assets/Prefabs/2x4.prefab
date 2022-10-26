@@ -55,9 +55,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1002597268563866443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ded6049466697aa4f8ea6bf457adc54d, type: 3}
+  m_Script: {fileID: 11500000, guid: 429131c716d042ad948f742d5ba42d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assembly: {fileID: 0}
 --- !u!1 &3372622009431365796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4944,7 +4945,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 89
+  m_VersionIndex: 92
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -10143,6 +10144,8 @@ MonoBehaviour:
   buildPreview: {fileID: 3488695463458123378}
   snapSound: {fileID: 4861781430634608966}
   centerTransform: {fileID: 0}
+  unevenX: 0
+  unevenZ: 0
 --- !u!82 &4861781430634608966
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10294,6 +10297,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5141678381635069142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d7160775274b4342be6e024131c91ab, type: 3}
+  m_Script: {fileID: 11500000, guid: c720d00be4e94834a4d76a0b1b94666c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

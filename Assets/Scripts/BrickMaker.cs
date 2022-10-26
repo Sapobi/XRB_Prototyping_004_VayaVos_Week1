@@ -32,7 +32,6 @@ public class BrickMaker : MonoBehaviour
 		}
 	}
 
-	/*
 	void Update()
 	{
 		if (!_makingBrick) return;
@@ -46,9 +45,9 @@ public class BrickMaker : MonoBehaviour
 
 		_generatedBrick.transform.position = Vector3.Lerp(rightControllerPosition, leftControllerPosition, 0.5f);
 		_generatedBrick.transform.rotation = Quaternion.LookRotation(rightControllerPosition - leftControllerPosition, transform.up);
-		_generatedBrick.transform.localScale = Vector3.Distance(rightControllerPosition, leftControllerPosition) * 0.75f * Vector3.one;
+		//_generatedBrick.transform.localScale = Vector3.Distance(rightControllerPosition, leftControllerPosition) * 0.75f * Vector3.one;
 	}
-	*/
+
 
 	private void MakeBrick()
 	{
